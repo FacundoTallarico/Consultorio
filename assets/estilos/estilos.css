@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    /* background: rgb(178,241,249);
+    background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%, rgba(32,149,164,1) 47%, rgba(3,169,203,1) 77%, rgba(3,106,128,1) 100%); */
+    /* background: rgb(9,207,232);
+    background: linear-gradient(90deg, rgba(9,207,232,1) 0%, rgba(3,169,203,1) 31%, rgba(44,174,190,1) 57%, rgba(3,106,128,1) 98%); */
+    background: rgb(3,169,203);
+    background: linear-gradient(77deg, rgba(3,169,203,1) 15%, rgba(60,194,210,1) 35%, rgba(44,174,190,1) 55%, rgba(3,106,128,1) 83%);
+    background-attachment: fixed;
+}
+/* style="background: rgb(178,241,249);
+background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%, rgba(32,149,164,1) 47%, rgba(3,169,203,1) 77%, rgba(3,106,128,1) 100%);"> */
+
+.slide{
+    height: 75vh;
+    background-color: rgba(231, 125, 125, 0.1);
+    
+}
+
+.btn-ver{
+    transition: 0.5s;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-ver:hover{
+    transition: 0.5s;
+    transform: translateY(-15%);
+    /* border: 1px solid white; */
+    color: black;
+    background-color: white;
+}
+
+.card{
+    transition: 0.5s;
+    width: 16rem;
+}
+
+.card:hover {
+    transition: 0.5s;
+    box-shadow:
+    5px 5.6px 1.1px rgba(0, 0, 0, 0.056),
+    10.3px 11.4px 3.7px rgba(0, 0, 0, 0.064),
+    16.2px 17.9px 8.1px rgba(0, 0, 0, 0.067),
+    23.5px 26px 15.3px rgba(0, 0, 0, 0.068),
+    34px 37.6px 26.8px rgba(0, 0, 0, 0.068),
+    51.7px 57.3px 46.6px rgba(0, 0, 0, 0.069),
+    84px 93px 93px rgba(0, 0, 0, 0.07)
+    ;
+    transform: translateY(-5%);
+}
+
+.btn-wpp {
+    transition: 0.5s;
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.btn-wpp:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+    animation: headShake;
+    animation-duration: 1s;
+}
+
+.forma{
+    margin-left: 75px;
+    border-radius: 68% 32% 64% 36% / 70% 52% 48% 30%  ;
+    width: 329px;
+    height: 329px;
+    background: rgb(178,241,249);
+    background: linear-gradient(90deg, rgba(178,241,249,1) 0%, rgba(3,169,203,1) 47%, rgba(3,106,128,1) 98%);
+}
+
+.forma2{
+    margin-top: 15px;
+    margin-left: 55px;
+    border-radius: 68% 32% 64% 36% / 70% 52% 48% 30%  ;
+    width: 329px;
+    height: 329px;
+    background: rgba( 255, 255, 255, 0.25 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.banner {
+    background-image: url('../imgs/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+.mask{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+/* .hola1 {
+    background-color: red;
+    z-index: 1;
+}
+
+.hola {
+    background-color:green;
+    position: relative;
+    width: 380px;
+    height: 300px;
+    left: -35px;
+    top: -17px;
+    z-index: 3;
+} */
+
+.encel {
+    display: none;
+}
+
+@media (max-width: 991px) {
+
+    .banner {
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .card{
+        margin: 15px;
+        width: 25rem;
+    }
+
+    .encel {
+        display: block;
+    }
+
+    .enescritorio{
+        display: none;
+    }
+    
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    /* .slide{
+        height: 75vh;
+        background-color: rgba(231, 125, 125, 0.1);
+    }
+
+    .forma, .forma2 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .forma{
+        margin-left: 65px;
+    }
+
+    .forma2{
+        margin-left: 45px;
+    } */
+
+    .banner {
+        background-image: url('../imgs/banner-mobile.jpg');
+        background-size: cover;
+        background-position-y: center;
+    }
+}

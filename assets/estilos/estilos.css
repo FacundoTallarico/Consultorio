@@ -23,7 +23,7 @@ nav {
     background: #44b499;
 }
 
-/* 
+
 header nav {
     transition: 0.5s;
 }
@@ -34,7 +34,7 @@ header nav.off{
 
 header nav.solid{
     background-color: white;
-} */
+}
 
 
 .banner {

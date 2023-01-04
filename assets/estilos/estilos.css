@@ -47,6 +47,18 @@ header nav.off{
 
 header nav.solid{
     background-color: white;
+    color: red;
+}
+
+.nav-link{
+    color: white;
+}
+
+header nav.solid a{
+    color: black;
+}
+header nav.solid a:hover{
+    color: #078E8A;
 }
 
 
@@ -156,7 +168,7 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
     51.7px 57.3px 46.6px rgba(0, 0, 0, 0.069),
     84px 93px 93px rgba(0, 0, 0, 0.07)
     ;
-    transform: translateY(-5%);
+    transform: translateY(-3%);
 }
 
 .btn-wpp {

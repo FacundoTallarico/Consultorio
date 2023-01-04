@@ -1,10 +1,23 @@
+@font-face {
+    font-family: Butler;
+    src: url(../fuentes/Butler_Regular.otf);
+}
+
+@font-face {
+    font-family: NarzissProCyrillic;
+    src: url(../fuentes/NarzissProCyrillic-Medium.ttf);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Butler';
+    font-family: Butler;
 }
 
+h1{
+    font-family: NarzissProCyrillic;
+}
 
 nav > a{
     transition: 0.5s;
@@ -151,7 +164,7 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
     position: fixed;
     width: 65px;
     height: 65px;
-    line-height: 65px;
+    line-height: 68px;
     bottom: 30px;
     right: 30px;
     background: #0df053;

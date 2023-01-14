@@ -232,6 +232,9 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
 .copy{
     background-color: #078e8a93;
 }
+h2.tratamientos{
+    text-align: center;
+}
 
 @media (max-width: 991px) {
 
@@ -256,6 +259,7 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
     .enescritorio{
         display: none;
     }
+    
     
 }
 
@@ -298,5 +302,8 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
         background-image: url('../imgs/banner-mobile.jpg');
         background-size: cover;
         background-position-y: center;
+    }
+    h2.tratamientos{
+        text-align: center;
     }
 }

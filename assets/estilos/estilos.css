@@ -290,11 +290,19 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
     animation-duration: 1s;
 }
 
+<<<<<<< HEAD
 /* .img-description {
     border: 1px solid red;
     border-radius: 15px;
     border-collapse: separate;
 } */
+=======
+/*.img-description {
+    border: 1px solid red;
+    border-radius: 15px;
+    border-collapse: separate; 
+}*/
+>>>>>>> 82781ecbd2e7fa2a9784ebb39edb92b0055494bb
 
 /* .forma{
     margin-left: 75px;
@@ -326,6 +334,10 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
 .copy{
     background-color: #078e8a93;
 }
+h2.tratamientos{
+    text-align: center;
+    color: white;
+}
 
 @media (max-width: 991px) {
 
@@ -354,6 +366,11 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
     .view-cel{
         margin-top: 30px;
     }
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> 82781ecbd2e7fa2a9784ebb39edb92b0055494bb
 }
 
 @media (max-width: 600px) {
@@ -393,8 +410,14 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
         background-size: cover;
         background-position-y: center;
     }
+<<<<<<< HEAD
 
     .swiper-slide {
         text-align: center;
+=======
+    h2.tratamientos{
+        text-align: center;
+        color: white;
+>>>>>>> 82781ecbd2e7fa2a9784ebb39edb92b0055494bb
     }
 }

@@ -83,7 +83,7 @@ header nav.solid a:hover{
 
 /*----------------------BANNER----------------------*/
 .banner {
-    background-image: url('../imgs/banner2.jpg');
+    background-image: url('../imgs/foto4.jpg');
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -196,8 +196,11 @@ header nav.solid a:hover{
 }
 
 .slide{
-    height: 100vh;
     background-color: rgba(231, 125, 125, 0.1);
+}
+
+.title-h3{
+    text-align: center;
 }
 
 /* .hola {

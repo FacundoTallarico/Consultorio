@@ -2,7 +2,6 @@ const section = document.querySelector('header > nav');
 const navbarBrand = document.querySelector('header > nav > div > a');
 let prevY = window.scrollY;
 
-// console.log(div.innerHTML)
 window.addEventListener('scroll', function(){
     if(prevY > window.scrollY) {
         section.classList.remove('off')
@@ -27,7 +26,6 @@ var swiper = new Swiper(".mySwiper", {
     },
     slidesPerView: 1,
     spaceBetween: 10,
-    // init: false,
     pagination: {
     el: '.swiper-pagination',
     clickable: true,

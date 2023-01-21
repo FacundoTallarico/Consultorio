@@ -347,6 +347,7 @@ background: linear-gradient(36deg, rgba(178,241,249,1) 0%, rgba(9,100,121,1) 21%
 /*----------------------OBRA SOCIAL----------------------*/
 .obra-social {
     margin-bottom: 38px;
+    text-align: -webkit-center;
 }
 
 .obra-social > h2{
